@@ -1,0 +1,101 @@
+@media screen and (max-width:640px){
+    
+    /* Menus de navigation */
+    
+    .disp{
+        display: none;
+    }
+    #gridbar{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto auto;
+    }
+    #burger{
+        display: initial;
+    }
+
+    /* Bannière horaires d'ouverture */
+
+    #text{
+        color: #f2eddb;   
+     }
+
+    /*selection 3 menus */
+
+    #imgce , #imgeEliq , #imgGU{
+        width: 100px;
+        height: 100px;
+    }
+    #select{
+        margin: 0px;
+        margin-top: 30px;
+    }
+    .marg {
+        font-size: 10pt;
+    }
+
+    /* Meilleures ventes */
+
+    #color{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+    }
+    #imgvap , #imgvapogrid , #imgliq{
+        width: 80px;
+        height: 80px;
+    }
+    #vap , #liq , #vapogrid{
+        font-size: 10pt;
+        margin: 10px;
+    }
+    #titreMV{
+        margin: 10px;
+        font-size: 15pt;
+    }
+
+    /* texte img gwen */
+    
+    #gridgwen{
+        height: 175px;
+    }
+    #textgwen{
+        font-size: 10pt;
+        padding: 0px; 
+        padding-left: 60px;
+    }
+    #gwen{
+        background-image: url(../Images/gweendall\ copie.jpg);
+    }
+    
+    /* histoire de la marque */
+
+    #histo{
+        display: none;
+    }
+
+    /* Localisation de la boutique */
+
+    #titreMaps{
+        font-size: 20pt;
+    }
+    #paraCarte{
+        height: 300px;
+        width: 300px;
+    }
+    #adress{
+        font-size: 17pt;
+    }
+
+    /* footer */
+
+    .taille{
+        font-size: 9pt;
+        padding: 10px;
+        margin-top: 12px;
+    }
+    #logos{
+        margin-top: 0px;
+    }
+
+}
